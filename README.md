@@ -1,5 +1,9 @@
 <div align="center">
 
+<p>
+  <strong>English</strong> · <a href="./README.zh-CN.md">中文</a>
+</p>
+
 # Tianyu Hu
 
 Open-source contributor building a public track record through focused, reviewable fixes.
