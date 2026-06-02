@@ -6,63 +6,85 @@
 
 # 胡天禹
 
-开源贡献者，专注于真实、可验证、便于维护者 review 的小型修复。
+专注 AI 工具、软件工程与真实开源协作的开源贡献者。
 
 [![GitHub](https://img.shields.io/badge/GitHub-lonelyhty-181717?style=for-the-badge&logo=github)](https://github.com/lonelyhty)
-[![Merged PRs](https://img.shields.io/badge/已合并%20PR-3-2da44e?style=for-the-badge)](#已合并贡献)
-[![PRs Under Review](https://img.shields.io/badge/Review%20中%20PR-16-0969da?style=for-the-badge)](#review-中的-pr)
-[![Resume Notes](https://img.shields.io/badge/简历附录-Open-6f42c1?style=for-the-badge)](./OPEN_SOURCE_RESUME.md)
+[![Merged PRs](https://img.shields.io/badge/已合并%20PR-4-2da44e?style=for-the-badge)](#精选已合并贡献)
+[![Public PRs](https://img.shields.io/badge/公开%20PR-25%2B%20review%20中-0969da?style=for-the-badge)](#review-中的工作)
+[![Focus](https://img.shields.io/badge/方向-AI%20%2B%20软件工程-6f42c1?style=for-the-badge)](#工程方向)
 
 </div>
 
-## 个人简介
+## 我正在建立什么
 
-我主要向公开开源项目提交小而清晰的改动：代码修复、跨平台兼容性、文档质量、失效链接维护、翻译 typo 和本地化修正。我的贡献原则是：范围足够窄，维护者容易 review；问题足够具体，结果可以验证。
+我正在用真实、公开、可验证的开源贡献建立自己的工程履历。相比大而空的展示，我更重视能被维护者快速 review 的具体修复：找到一个真实问题，控制改动范围，写清楚影响，跑完相关验证，然后让仓库变得更可靠一点。
 
-当前公开记录：**3 个已合并 PR**，涉及 `awesome-react`、`logisim-evolution` 和 `first-contributions`；另有 **16 个 public PR 正在 review 中**，覆盖开发者教育、前端生态、工具链和开源基础设施相关项目。
+当前公开记录：**4 个已合并 PR**，包括 `jd-opensource/xllm`、`awesome-react`、`logisim-evolution`、`first-contributions`；另有 **25+ 个公开 PR 正在 review 中**，覆盖 AI 工具、开发者教育、前端生态、文档质量、本地化、跨平台可靠性等方向。
 
-## 已合并贡献
+## 工程方向
 
-| 项目 | 规模 | 贡献内容 | 证明 |
-| --- | ---: | --- | --- |
-| [enaqx/awesome-react](https://github.com/enaqx/awesome-react) | 约 73.5k stars | 更新 React 资源索引中的 canonical GitHub 仓库链接。 | [Merged PR #1736](https://github.com/enaqx/awesome-react/pull/1736) |
-| [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 约 7.2k stars | 修复 Java Swing pin value editor 初始窗口尺寸问题，并通过 Gradle compile 与 Checkstyle 验证。 | [Merged PR #2629](https://github.com/logisim-evolution/logisim-evolution/pull/2629) |
-| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 约 54.3k stars | 完成标准开源 onboarding 贡献，加入 contributors list。 | [Merged PR #118084](https://github.com/firstcontributions/first-contributions/pull/118084) |
-
-## 工程习惯
-
-| 原则 | 在 PR 中的体现 |
+| 方向 | 我在做什么 |
 | --- | --- |
-| 范围清晰 | 每个 PR 尽量只对应一个 issue、一个链接、一个 typo 或一个具体行为问题。 |
-| 可验证 | PR 描述中写明 lint、test、build 或手动验证方式。 |
-| 尊重维护者时间 | 提交前检查重复 PR，把已合并贡献和 review 中贡献分开展示。 |
-| 跨项目阅读能力 | 贡献覆盖 Java、Ruby/Rails、JavaScript/TypeScript、文档、本地化等场景。 |
+| AI 与 LLM 工具 | 围绕 AI 助手、推理引擎、LLM evaluation、agent 相关项目做文档、配置与可靠性修复。 |
+| 软件工程基本功 | 关注行为缺陷、搜索/解析边界情况、跨平台路径、依赖与配置正确性，以及能用测试或构建验证的小修复。 |
+| 维护者友好的 PR | 控制 diff 范围，写清楚动机和验证命令，避免重复 PR，并把已合并贡献和 review 中贡献分开展示。 |
+| 长期目标 | 训练自己快速阅读陌生系统、定位具体问题、并在公开项目中负责任地贡献代码的能力。 |
 
-## Review 中的 PR
+## 精选已合并贡献
 
-这些 PR 仍在等待维护者 review，我把它们和已合并贡献分开展示，避免把“正在审查”包装成“已被项目接受”。
+| 项目 | 贡献内容 | 证明 |
+| --- | --- | --- |
+| [jd-opensource/xllm](https://github.com/jd-opensource/xllm) | 修复中文项目 README 中 Apache License 链接，使其正确指向仓库根目录许可证。 | [Merged PR #1634](https://github.com/jd-opensource/xllm/pull/1634) |
+| [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 修复 Java Swing pin value editor 初始窗口尺寸问题，并通过 Gradle compile 与 Checkstyle 验证。 | [Merged PR #2629](https://github.com/logisim-evolution/logisim-evolution/pull/2629) |
+| [enaqx/awesome-react](https://github.com/enaqx/awesome-react) | 更新 React 资源索引中的 canonical GitHub 仓库链接。 | [Merged PR #1736](https://github.com/enaqx/awesome-react/pull/1736) |
+| [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 完成标准开源 onboarding 贡献，加入 contributors list。 | [Merged PR #118084](https://github.com/firstcontributions/first-contributions/pull/118084) |
+
+## Review 中的工作
+
+这些 PR 仍在等待维护者 review。我把它们和已合并贡献分开，保证主页展示准确、不虚标。
 
 <details>
-<summary><strong>部分 open PR</strong></summary>
+<summary><strong>精选 AI、工具链与软件工程 PR</strong></summary>
 
-| 项目 | 规模 | 贡献内容 | PR |
-| --- | ---: | --- | --- |
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 约 510k stars | 添加 WebRTC 教程，并更新 canonical GitHub resource links。 | [#1792](https://github.com/codecrafters-io/build-your-own-x/pull/1792), [#1793](https://github.com/codecrafters-io/build-your-own-x/pull/1793) |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 约 389k stars | 更新重定向后的 interactive tutorial links，并运行项目 lint。 | [#13292](https://github.com/EbookFoundation/free-programming-books/pull/13292) |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 约 267k stars | 移除失效 Scotch 链接，并更新 Scheme 教程链接。 | [#875](https://github.com/practical-tutorials/project-based-learning/pull/875), [#876](https://github.com/practical-tutorials/project-based-learning/pull/876) |
-| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | 约 114k stars | 修复失效 contributor profile links。 | [#218](https://github.com/Hack-with-Github/Awesome-Hacking/pull/218) |
-| [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) | 约 86k stars | 移除已归档 beginner project 条目。 | [#2034](https://github.com/MunGell/awesome-for-beginners/pull/2034) |
-| [appwrite/appwrite](https://github.com/appwrite/appwrite) | 约 56k stars | 修复 Arabic recovery email typo。 | [#12453](https://github.com/appwrite/appwrite/pull/12453) |
-| [solidjs/solid](https://github.com/solidjs/solid) | 约 36k stars | 修复 README supporter links。 | [#2734](https://github.com/solidjs/solid/pull/2734) |
-| [lobsters/lobsters](https://github.com/lobsters/lobsters) | 约 4.7k stars | 修复短 `title:` 搜索词处理，并补充 parser/model 测试覆盖。 | [#2053](https://github.com/lobsters/lobsters/pull/2053) |
-| [Goldentrii/AgentRecall-MCP](https://github.com/Goldentrii/AgentRecall-MCP) | 约 300 stars | 修复 Windows/跨平台同步路径处理。 | [#19](https://github.com/Goldentrii/AgentRecall-MCP/pull/19) |
+| 项目 | 贡献内容 | PR |
+| --- | --- | --- |
+| [thu-HZML/SmartPaste](https://github.com/thu-HZML/SmartPaste) | 移除开发者本机硬编码 Live2D 模型路径，并验证 Vite build。 | [#131](https://github.com/thu-HZML/SmartPaste/pull/131) |
+| [kalinplus/baoyan_teacher_search](https://github.com/kalinplus/baoyan_teacher_search) | 在 LLM 导师检索管线中修复 Scholar 客户端 retry timeout 与现有测试不一致的问题。 | [#1](https://github.com/kalinplus/baoyan_teacher_search/pull/1) |
+| [ggb1267183/ai-assistant-local](https://github.com/ggb1267183/ai-assistant-local) | 移除源码中的硬编码 SerpApi key，改为环境变量配置，并补充单元测试。 | [#1](https://github.com/ggb1267183/ai-assistant-local/pull/1) |
+| [tingyunaiai9/345-ai-assistant](https://github.com/tingyunaiai9/345-ai-assistant) | 修复 AI 助手搜索功能读取 SerpApi 环境变量的问题。 | [#1](https://github.com/tingyunaiai9/345-ai-assistant/pull/1) |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 修复 profile-use CLI 文档中的仓库链接。 | [#4952](https://github.com/browser-use/browser-use/pull/4952) |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 更新 Pydantic Evals 文档中的 Ragas 仓库链接。 | [#5759](https://github.com/pydantic/pydantic-ai/pull/5759) |
+| [lobsters/lobsters](https://github.com/lobsters/lobsters) | 修复短 `title:` 搜索词处理，并补充 parser/model 覆盖。 | [#2053](https://github.com/lobsters/lobsters/pull/2053) |
+| [Goldentrii/AgentRecall-MCP](https://github.com/Goldentrii/AgentRecall-MCP) | 修复 Windows 与跨平台同步路径处理。 | [#19](https://github.com/Goldentrii/AgentRecall-MCP/pull/19) |
 
 </details>
+
+<details>
+<summary><strong>精选开发者教育与资源索引 PR</strong></summary>
+
+| 项目 | 贡献内容 | PR |
+| --- | --- | --- |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 添加 WebRTC 教程并更新 canonical GitHub resource links。 | [#1792](https://github.com/codecrafters-io/build-your-own-x/pull/1792), [#1793](https://github.com/codecrafters-io/build-your-own-x/pull/1793) |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 更新重定向后的 interactive tutorial links，并运行项目 lint。 | [#13292](https://github.com/EbookFoundation/free-programming-books/pull/13292) |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 移除失效链接并更新教育资源链接。 | [#875](https://github.com/practical-tutorials/project-based-learning/pull/875), [#876](https://github.com/practical-tutorials/project-based-learning/pull/876) |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | 修复 contributor profile links。 | [#218](https://github.com/Hack-with-Github/Awesome-Hacking/pull/218) |
+| [solidjs/solid](https://github.com/solidjs/solid) | 修复 README supporter links。 | [#2734](https://github.com/solidjs/solid/pull/2734) |
+
+</details>
+
+## 我的工作方式
+
+| 原则 | 体现 |
+| --- | --- |
+| 具体胜过泛泛而谈 | 优先选择能复现、能链接、能测试或能人工验证的问题。 |
+| 小而清晰的 diff | 维护者应该能在几分钟内理解补丁。 |
+| PR 里写证据 | 在描述中写明单元测试、构建命令、链接验证或手动验证方式。 |
+| 公开记录保持准确 | 已合并贡献按 accepted work 展示；open PR 只作为 review 中工作展示。 |
 
 ## 简历摘要
 
 ```text
-开源贡献者：已合并 3 个 GitHub PR，包括 awesome-react（约 73.5k stars）和 logisim-evolution（约 7.2k stars）。向 logisim-evolution 提交并合并 Java Swing 编辑器窗口尺寸修复，通过 Gradle compile 与 Checkstyle 验证。另有多个 public PR 正在大型开发者教育和工具链项目中 review。
+开源贡献者：已合并 4 个 GitHub PR，包括 jd-opensource/xllm、awesome-react、logisim-evolution 等项目。曾为 logisim-evolution 修复 Java Swing 编辑器行为问题，并通过 Gradle compile 与 Checkstyle 验证。持续向 AI 工具、软件工程基础设施、开发者教育、文档质量与跨平台可靠性相关项目提交可 review 的公开补丁。
 ```
 
 更多细节：[开源简历附录](./OPEN_SOURCE_RESUME.md)
